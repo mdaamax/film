@@ -1,0 +1,302 @@
+
+
+
+.banner
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c1e;
+}
+.text_logo
+{
+    position: relative;
+    color: rgba(255,255,255,0.1);
+    font-size:7vw ;
+    font-family: 'Audiowide', cursive;
+    font-weight: 7;
+    animation: animateText 5s linear infinite;
+}
+@keyframes animateText
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.10%,92%
+    {
+        color: rgba(255,255,255,0.1);
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60%,65%,70.1%,90%,92.1%,100%
+    {
+        color:rgba(255,255,255,0.1);
+        text-shadow: 0 0 10px #0b9fb9,
+        0 0 20px #0b9fb9,
+        0 0 40px #0b9fb9,
+        0 0 80px #0b9fb9;
+    }
+}
+body{
+    margin: 0;
+}
+.brand{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.text_logo{
+    height: 200px;
+    width: 310px;
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    color: #c1c1e8;
+}
+.text_logo>h1 {
+    font-size:130px;
+
+    -webkit-background-clip: text;
+
+
+}
+.menu{
+    height: 100vh;
+    font-size: 25px;
+}
+
+.kosmos{
+    position: relative;
+    left: 900px;
+    top:60px;
+
+
+}
+.link-dark {
+    color: #000000!important;
+}
+.about{
+    padding-bottom: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about_us{
+    padding-bottom: 100px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(156,186,230,1) 57%, rgba(212,148,233,0) 74%);
+}
+
+.our_works{
+    padding-top: 80px;
+    background: #dedede;
+}
+.colons{
+    background: #dedede;
+}
+
+card{
+    margin-top: 120px;
+}
+
+.main_mix_menu{
+    padding-top: 20px;
+    padding-bottom: 40px
+;
+}
+
+section{
+    padding-bottom: 10PX;
+}
+
+.back{
+    background: #dedede;
+}
+
+.card{
+    background: #ffffff;
+    --bs-card-border-width: 0;
+    margin: 0 auto; /* для центра */
+    float: none; /* для центра */
+    margin-bottom: 10px; /* для центра */
+    --bs-card-border-radius: 3em;
+}
+
+.more{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.why_shoose_us{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
+
+.centered {
+    position: absolute;
+    top: 130px;
+    left: 50em;
+}
+.centered>h1  {
+    font-size: 40px;
+}
+.rightimg{
+    float: left;
+}
+
+.our_team{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,0.8799894957983193) 47%, rgb(17, 100, 119) 88%);*/
+}
+.our_t{
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.our_skills{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.our_skill{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.skillbar {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 60%;
+}
+.skillbar_1 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 50%;
+}
+.skillbar_2 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 30%;
+}
+.skillbar_3 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width:80%;
+}
+.skillbar_4 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 40%;
+}
+.skillbar_5 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 60%;
+}
+
+.skillbar-title {
+    color: #323232;
+    font-size: 12px;
+    left:15px;
+    position: relative;
+    top: 5px;
+}
+.skillbar-title h3{
+    font-size:14px;
+    color: #ffffff;
+}
+
+#brands{
+    padding-top:50px;
+}
+input{
+    margin: auto;
+}
+.form-control{
+    width: 45%;
+    text-align: center;
+    border-radius: 33px;
+    background-color: black;
+    color: cyan;
+    font-size: 20px;
+    border: 0;
+}
+textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + 2px);
+    margin: auto;
+}
+input::placeholder {
+    font-weight: bold;
+}
+.carusrel{
+    background: #cecece;
+}
+.thank_you{
+    background: #cecece;
+}
+
+.contact_us{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,0.8799894957983193) 47%, rgb(17, 100, 119) 88%);*/
+}
+.contact_u{
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.down{
+    padding-bottom: 30px;
+}
+footer {
+    padding-top: 60px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+
+}
+.news{
+    background: black;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.planet_n{
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.videos{
+    background: black;
+}
+.link-light{
+    padding-left: 50%;
+}
